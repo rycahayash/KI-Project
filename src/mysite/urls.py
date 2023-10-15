@@ -27,10 +27,15 @@ from account.views import(
     login_view,
 )
 
+from user_profile.views import(
+    user_profile_view,
+)
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("home/", home_screen_view, name="home"),
     path("register/", registration_view, name="register"),
     path("logout/", logout_view, name="logout"),
     path("", login_view, name="login"),
+    path("user_profile/", user_profile_view, name='user_profile')
 ]

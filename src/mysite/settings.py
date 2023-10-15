@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     # my apps
     "personal",
     "account",
+    "user_profile",
 
     # django installed apps
     "django.contrib.admin",
@@ -131,3 +132,6 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+MEDIA = '/media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
