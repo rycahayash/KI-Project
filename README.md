@@ -11,3 +11,7 @@
 3. Install dependensi yang dibutuhkan `cd src`, lalu `pip install -r requirements.txt`
 4. masuk folder 'mySite'
 5. jalankan server `python manage.py runserver`
+6. python manage.py runserver
+7. python manage.py makemigrations
+8. python manage.py migrate
+9. pyhon manage.py createsuperuser
